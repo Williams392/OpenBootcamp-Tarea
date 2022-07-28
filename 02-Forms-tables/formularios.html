@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!--SIEMPRE-->
+<html>
+  <head>
+    <!-- título <head>-->
+    <title>Formularios.com</title>
+  </head>
+  <body>
+    <!-- <form action="" te derije a otra pagina-->
+    <form action="resultados.html" method="get">
+      <div>
+        <label for="nombreusuario">Nombre de Usuario</label>
+        <input type="text" name="nombreusuario" id="nombreusuario" required />
+      </div>
+      <br />
+      <div>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" required />
+      </div>
+      <br />
+      <div>
+        <label for="edad">Cuál es tu edad</label>
+        <input type="number" name="edad" id="edad" min="18" required />
+      </div>
+      <br />
+      <div>
+        <label for="comentarios">comentarios</label>
+        <textarea name="comentarios" id="comentarios"></textarea>
+      </div>
+      <button type="reset">Reset</button>
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
+</html>
